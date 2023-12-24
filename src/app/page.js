@@ -34,50 +34,7 @@ const Home = () => {
     <div className={styles.body}>
       <div className={styles.title}>New Game</div>
 
-      {/* <div className={styles.section}>
-        <div className={styles.subtitle}>Level</div>
-        <div className={styles.content}>
-          <input
-            type="radio"
-            className={styles['btn-check']}
-            name="levels"
-            id="easy"
-            value={0}
-            checked={selectedLevel === 0}
-            onChange={handleLevelChange}
-          />
-          <label className={`${styles.btn} ${styles['btn-secondary']}`} htmlFor="easy">
-            Easy
-          </label>
-
-          <input
-            type="radio"
-            className={styles['btn-check']}
-            name="levels"
-            id="medium"
-            value={1}
-            checked={selectedLevel === 1}
-            onChange={handleLevelChange}
-          />
-          <label className={`${styles.btn} ${styles['btn-secondary']}`} htmlFor="medium">
-            Medium
-          </label>
-
-          <input
-            type="radio"
-            className={styles['btn-check']}
-            name="levels"
-            id="hard"
-            value={2}
-            checked={selectedLevel === 2}
-            onChange={handleLevelChange}
-          />
-          <label className={`${styles.btn} ${styles['btn-secondary']}`} htmlFor="hard">
-            Hard
-          </label>
-        </div>
-      </div> */}
-
+     
       <div className={styles.section}>
         <div className={styles.subtitle}>Game Duration</div>
         <div className={styles.content}>
